@@ -1,0 +1,176 @@
+ /* first section */
+ body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Firstblock {
+    background-color:#1F2937;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h3 {
+    font-size:24px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:800;
+    margin:0px;
+    padding:0px;
+    line-height:40px;
+}
+
+.Firstblock p,
+.Firstblock li {
+    color:#98999a;
+    font-size:18px;
+}
+
+  .Headercenter {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    margin-bottom:50px;
+} 
+
+img {
+    margin-right: 150px;
+}
+
+.Firstblock button {
+    border-radius:5px;
+    background-color:#3882F6;
+    color:#F9FAF8;
+    display:flex;
+    border:none;
+    padding:5px;
+}
+
+li {
+    list-style-type:none;
+}
+
+.Headerup {
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding:20px 0px 20px 100px;
+    gap:500px;
+    /* justify-content:end;
+    flex-direction:row;
+    /*display:flex;
+    width:100%;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap: var(--space-3);*/
+}
+
+ .Headerlogo {
+    /* justify-content: flex-start; */
+    display:flex;
+    margin-right:auto;
+} 
+.Headerlinks {
+    display:flex;
+    margin-left:auto;
+    padding: 0px 100px 0px 0px;
+}
+ ul {
+    display:flex;
+    flex-direction:row;
+    align-items:end;
+    gap: 12px;
+    padding: 12px;
+    margin-right:12px;
+    margin-bottom:8px;
+} 
+
+.Firstext {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding:50px;
+    margin-left: 150px;
+}
+
+/* second section */
+.titletwo {
+    font-size:36px;
+    font-weight:800;
+    color:#1F2937;
+    text-align:center;
+    padding:20px;
+}
+
+.Headertwo {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:52px;
+}
+
+.imagestwo {
+    padding:10px;
+    max-width:200px; /* afin de centrer les images aux centres */
+}
+
+/* third section */ 
+
+.Thirdblock {
+    background-color:#E5E7EB;
+    padding:50px;
+}
+.thirdtext {
+    text-align:center;
+}
+.signature {
+    text-align:end;
+    color:#1F2937;
+    font-weight:600;
+}
+
+/* fourth section */
+
+.Fourthblock {
+    background-color:#3882F6;
+    margin: 100px;
+    padding:20px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.textpart {
+    color:#F9FAF8;
+    margin-right:120px;
+}
+
+.Fourthblock .title {
+    font-weight:800;
+    font-size:26px;
+}
+
+.Fourthblock button {
+    border-radius:5px;
+    background-color:#3882F6;
+    color:#F9FAF8;
+    display:flex;
+    border:2px solid #F9FAF8;
+    padding:5px;
+    text-align:center;
+    align-self:center;
+    font-size:24px;
+}
+
+.Lastblock {
+    background-color:#1F2937;
+    color:#dcdfd9;
+    padding:25px;
+    text-align:center;
+}
